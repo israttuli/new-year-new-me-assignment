@@ -49,7 +49,7 @@ header {
     gap: 90px;
     margin-top: 130px;
     margin-left: 150px;
-    
+
 
 }
 
@@ -70,11 +70,42 @@ header {
     margin-top: 24px;
     margin-bottom: 16px;
 }
-.section-details ul li{
-    padding:8px;
+
+.section-details ul li {
+    padding: 8px;
 }
-.section-img{
+
+.section-img {
     background-color: #fadace;
     height: 600px;
-    border-radius:50%;
+    border-radius: 50%;
+}
+
+/* Plans Section */
+
+.my-plans {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.title {
+    padding-bottom: 50px;
+}
+
+.plans {
+    padding: 0 230px;
+    display: flex;
+    gap: 85px;
+}
+
+.plan h4 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    padding-top: 16px;
 }
