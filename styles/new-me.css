@@ -109,3 +109,31 @@ header {
     color: #737272;
     padding-top: 16px;
 }
+
+/* Positive mindset styles */
+
+.gradient {
+    margin: 130px 230px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 300px;
+    padding-left: 65px;
+    
+
+}
+
+.title {
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom:24px ;
+}
+
+.call-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 8px;
+}
