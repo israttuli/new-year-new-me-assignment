@@ -49,8 +49,6 @@ header {
     gap: 90px;
     margin-top: 130px;
     margin-left: 150px;
-
-
 }
 
 .section-details {
@@ -58,11 +56,10 @@ header {
     max-width: 415px;
 }
 
-.title {
+.failure-title {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
-
 }
 
 .description {
@@ -88,7 +85,10 @@ header {
     text-align: center;
 }
 
-.title {
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
     padding-bottom: 50px;
 }
 
@@ -119,21 +119,61 @@ header {
     border-radius: 10px;
     height: 300px;
     padding-left: 65px;
-    
-
 }
 
 .title {
+    font-weight: 700;
+    font-size: 40px;
     color: #FFFFFF;
     padding-top: 60px;
-    padding-bottom:24px ;
+    padding-bottom: 24px;
 }
 
-.call-btn {
+.white-btn {
     font-weight: 600;
     font-size: 20px;
     color: #F15B22;
     padding: 20px 35px;
     border: none;
     border-radius: 8px;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #151414;
+    display: flex;
+    gap: 330px;
+    justify-content: space-between;
+    padding: 130px 230px;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+#email {
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+#phone {
+    padding-bottom: 32px;
+}
+
+footer ul {
+    display: flex;
+    gap: 20px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+#input-field{
+    margin-bottom: 16px;
+    padding-bottom: 24px;
+    background: #151414;
+    color: #F3F3F3;
+    font-size: 18px;
 }
